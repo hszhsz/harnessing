@@ -4,6 +4,8 @@
 
 > Every leap in human civilization is a story of harnessing a new force — from oxen to engines, from electricity to algorithms, and now, from language models to autonomous agents.
 
+![Productivity Evolution Timeline](assets/01-productivity-timeline.jpg)
+
 ---
 
 ## About This Book
@@ -13,6 +15,8 @@ This is an open-source book that traces humanity's journey of harnessing ever-gr
 The word "harness" carries a deliberate double meaning:
 1. **To harness** (verb): to bring under control and direct the force of — as humans have done with animals, wind, steam, electricity, and computation.
 2. **A harness** (noun): the framework/architecture that connects an LLM to tools, memory, and the real world — the defining structure of an AI Agent.
+
+![The Dual Meaning of Harness](assets/02-harness-dual-meaning.jpg)
 
 ## 关于本书
 

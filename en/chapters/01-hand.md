@@ -1,5 +1,7 @@
 # Chapter 1: The Hand — The First Tool
 
+![Productivity Evolution Timeline](../../assets/01-productivity-timeline.jpg)
+
 ## Part I: The Age of Muscle
 
 ---

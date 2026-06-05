@@ -1,5 +1,7 @@
 # Chapter 15: AI Agents — The Tool That Wields Tools
 
+![AI Agent Core Loop](../../assets/04-agent-loop.jpg)
+
 ---
 
 ## The Night Shift That Never Clocks Out

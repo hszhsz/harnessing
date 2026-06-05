@@ -1,5 +1,7 @@
 # Chapter 17: The Metaphor of the Reins (Finale)
 
+![Energy Density Across Ages](../../assets/03-energy-density.jpg)
+
 ---
 
 ## Seven Revolutions in One Image
