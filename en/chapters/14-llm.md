@@ -10,7 +10,7 @@ In the summer of 2020, a programmer in San Francisco typed the beginning of a fu
 
 He deleted it and tried something harder. He typed a comment in plain English: "A function that takes a list of GPS coordinates and returns the total distance traveled in kilometers, accounting for the curvature of the Earth." Beneath his comment, line by line, the system wrote the Haversine formula implementation. It was not retrieving code from a database. It was not pattern-matching against a template. It was generating novel, functional code from a description written in everyday language.
 
-The system was GPT-3, a large language model with 175 billion parameters, trained on a significant fraction of the text available on the internet. That programmer's experience — watching natural language become a kind of universal programming language — was not a product demo or a laboratory curiosity. It was the first tremor of an earthquake that would restructure the relationship between human intention and machine execution.
+The system was GPT-3, a large language model with 175 billion parameters[^1], trained on a significant fraction of the text available on the internet. That programmer's experience — watching natural language become a kind of universal programming language — was not a product demo or a laboratory curiosity. It was the first tremor of an earthquake that would restructure the relationship between human intention and machine execution.
 
 This chapter traces the path from the earliest rule-based language systems to the Transformer architecture and the phenomenon of emergent abilities in large language models. It is the story of how humanity learned to harness language itself — not as a medium of communication between people, but as an interface between human thought and computational power.
 
@@ -18,17 +18,17 @@ This chapter traces the path from the earliest rule-based language systems to th
 
 ## From Rules to Statistics: The Long Road
 
-The dream of making machines understand language is older than electronic computers themselves. In the 1950s, the Georgetown-IBM experiment demonstrated automatic translation of Russian sentences into English using a set of 250 rules and a vocabulary of just six words. The researchers predicted that machine translation would be a solved problem within five years.
+The dream of making machines understand language is older than electronic computers themselves. In the 1950s, the Georgetown-IBM experiment demonstrated automatic translation of Russian sentences into English using a set of 250 rules and a vocabulary of just six words.[^2] The researchers predicted that machine translation would be a solved problem within five years.
 
 They were wrong by more than half a century.
 
-The rule-based approach — encoding grammar, syntax, and semantics as explicit logical rules — dominated natural language processing for decades. Systems like SHRDLU (1970) could carry on impressive conversations about colored blocks on a table, but they shattered the moment you asked them about anything else. The world was too complex, too ambiguous, too contextual to be captured in handwritten rules.
+The rule-based approach — encoding grammar, syntax, and semantics as explicit logical rules — dominated natural language processing for decades. Systems like SHRDLU (1970)[^3] could carry on impressive conversations about colored blocks on a table, but they shattered the moment you asked them about anything else. The world was too complex, too ambiguous, too contextual to be captured in handwritten rules.
 
-The statistical revolution began in the late 1980s. Instead of telling machines the rules of language, researchers fed them enormous quantities of text and let them discover patterns. IBM's statistical machine translation systems, trained on the Canadian parliamentary Hansards (which conveniently existed in both English and French), outperformed rule-based systems by simply counting how often certain words appeared near other words. Frederick Jelinek of IBM famously quipped, "Every time I fire a linguist, the performance of the speech recognizer goes up."
+The statistical revolution began in the late 1980s. Instead of telling machines the rules of language, researchers fed them enormous quantities of text and let them discover patterns. IBM's statistical machine translation systems, trained on the Canadian parliamentary Hansards (which conveniently existed in both English and French), outperformed rule-based systems by simply counting how often certain words appeared near other words.[^4] Frederick Jelinek of IBM famously quipped, "Every time I fire a linguist, the performance of the speech recognizer goes up."[^5]
 
 This was a philosophical shift: from understanding language to predicting it. A language model does not "know" what a sentence means. It knows what word is likely to come next. But this humble ability — next-token prediction — turned out to be far more powerful than anyone initially recognized.
 
-The progression was steady but slow. N-gram models gave way to neural language models in the 2000s. Recurrent neural networks (RNNs) and their more sophisticated variant, Long Short-Term Memory networks (LSTMs), introduced the ability to maintain context over longer sequences. Word embeddings like Word2Vec (2013) revealed that neural networks could learn semantic relationships: the famous analogy "king - man + woman = queen" emerged spontaneously from training on raw text.
+The progression was steady but slow. N-gram models gave way to neural language models in the 2000s. Recurrent neural networks (RNNs) and their more sophisticated variant, Long Short-Term Memory networks (LSTMs)[^6], introduced the ability to maintain context over longer sequences. Word embeddings like Word2Vec (2013)[^7] revealed that neural networks could learn semantic relationships: the famous analogy "king - man + woman = queen" emerged spontaneously from training on raw text.
 
 But all these systems shared a fundamental limitation: they processed language sequentially, one token at a time, like reading through a straw. Long-range dependencies — understanding that a pronoun in paragraph three refers to a noun introduced in paragraph one — remained elusive.
 
@@ -36,13 +36,13 @@ But all these systems shared a fundamental limitation: they processed language s
 
 ## The Transformer: Attention Is All You Need
 
-In June 2017, a team of eight researchers at Google published a paper with the deceptively simple title "Attention Is All You Need." The architecture they described — the Transformer — would become the foundation of every major language model that followed.
+In June 2017, a team of eight researchers at Google published a paper with the deceptively simple title "Attention Is All You Need."[^8] The architecture they described — the Transformer — would become the foundation of every major language model that followed.
 
 The key innovation was the self-attention mechanism. Instead of processing a sequence word by word, the Transformer examines all words simultaneously, computing how much each word should "attend to" every other word in the sequence. When processing the sentence "The animal didn't cross the street because it was too tired," the model can directly connect "it" to "animal" regardless of the distance between them.
 
 This parallelism had a practical consequence that proved even more important than the architectural elegance: Transformers could be trained efficiently on modern GPU hardware. RNNs, by their sequential nature, could not fully exploit parallel processing. Transformers could. This meant that for the first time, the primary constraint on model capability was not algorithmic ingenuity but compute and data. The scaling era had begun.
 
-GPT (Generative Pre-trained Transformer), released by OpenAI in 2018, demonstrated that a Transformer trained on a large corpus of text could be fine-tuned for a remarkable variety of downstream tasks. GPT-2 (2019), with 1.5 billion parameters, generated text so coherent that its creators initially withheld the full model out of concern for misuse. GPT-3 (2020), scaled to 175 billion parameters, crossed a threshold that surprised even its creators.
+GPT (Generative Pre-trained Transformer), released by OpenAI in 2018[^9], demonstrated that a Transformer trained on a large corpus of text could be fine-tuned for a remarkable variety of downstream tasks. GPT-2 (2019), with 1.5 billion parameters, generated text so coherent that its creators initially withheld the full model out of concern for misuse.[^10] GPT-3 (2020), scaled to 175 billion parameters, crossed a threshold that surprised even its creators.
 
 ---
 
@@ -50,7 +50,7 @@ GPT (Generative Pre-trained Transformer), released by OpenAI in 2018, demonstrat
 
 In physics, there is a concept called a phase transition — the moment when water, heated gradually, suddenly becomes steam. The change is not linear. It is qualitative. Something new emerges from the accumulation of quantity.
 
-Large language models exhibit analogous behavior. As researchers scaled models from millions to billions to hundreds of billions of parameters, certain capabilities appeared suddenly rather than gradually. A model with 10 billion parameters cannot perform multi-step arithmetic. A model with 100 billion parameters can. The ability was not explicitly trained; it emerged from scale.
+Large language models exhibit analogous behavior. As researchers scaled models from millions to billions to hundreds of billions of parameters, certain capabilities appeared suddenly rather than gradually. A model with 10 billion parameters cannot perform multi-step arithmetic. A model with 100 billion parameters can. The ability was not explicitly trained; it emerged from scale.[^11]
 
 These emergent abilities include:
 
@@ -60,7 +60,7 @@ These emergent abilities include:
 
 **Code generation.** Models trained primarily on natural language text, when scaled sufficiently, develop the ability to write functional computer code — even in programming languages that constituted a tiny fraction of their training data.
 
-**Instruction following.** The ability to interpret and execute natural language instructions — "summarize this text in three bullet points," "rewrite this email to sound more formal" — emerges at scale and improves dramatically with techniques like reinforcement learning from human feedback (RLHF).
+**Instruction following.** The ability to interpret and execute natural language instructions — "summarize this text in three bullet points," "rewrite this email to sound more formal" — emerges at scale and improves dramatically with techniques like reinforcement learning from human feedback (RLHF).[^12]
 
 The theoretical explanation for emergence remains an active area of research. One hypothesis is that larger models learn more general and abstract representations. A small model might memorize that "Paris is the capital of France." A large model learns the abstract concept of "capital of" and can apply it across all countries, including ones rarely mentioned in its training data. The accumulation of these increasingly abstract representations crosses a threshold where qualitatively new behaviors become possible.
 
@@ -80,7 +80,7 @@ This is not merely a convenience. It is a fundamental democratization of computa
 
 ## Quantifying the Shift
 
-The productivity implications are staggering. A 2023 study by researchers at MIT found that professionals using GPT-4 for writing tasks completed them 37% faster with higher quality ratings. A study of programmers using GitHub Copilot (built on GPT technology) found that they completed tasks 55% faster. A study at Boston Consulting Group found that consultants using GPT-4 completed 12.2% more tasks, 25.1% faster, with 40% higher quality.
+The productivity implications are staggering. A 2023 study by researchers at MIT found that professionals using GPT-4 for writing tasks completed them 37% faster with higher quality ratings.[^13] A study of programmers using GitHub Copilot (built on GPT technology) found that they completed tasks 55% faster.[^14] A study at Boston Consulting Group found that consultants using GPT-4 completed 12.2% more tasks, 25.1% faster, with 40% higher quality.[^15]
 
 But these studies measured individual task performance — the equivalent of measuring how fast a single worker can dig with a steam shovel versus a hand shovel. The more transformative effects emerge at the organizational and economic level.
 
@@ -105,6 +105,40 @@ But an LLM alone, however capable, is still a reactive system. It responds to pr
 That architecture has a name. It is called an Agent. And the framework that connects an LLM to the world has a name, too — one that echoes the central metaphor of this entire book.
 
 It is called a harness.
+
+---
+
+## Notes
+
+[^1]: Tom B. Brown et al., "Language Models Are Few-Shot Learners," *Advances in Neural Information Processing Systems* 33 (NeurIPS 2020), arXiv:2005.14165.
+
+[^2]: W. John Hutchins, "The Georgetown-IBM Experiment Demonstrated in January 1954," in *Machine Translation: From Real Users to Research*, ed. Robert E. Frederking and Kathryn B. Taylor (Springer, 2004), pp. 102–114.
+
+[^3]: Terry Winograd, *Understanding Natural Language* (Academic Press, 1972).
+
+[^4]: Peter F. Brown et al., "The Mathematics of Statistical Machine Translation: Parameter Estimation," *Computational Linguistics* 19, no. 2 (1993): 263–311.
+
+[^5]: The remark, made in the 1980s, is recounted in Daniel Jurafsky and James H. Martin, *Speech and Language Processing*, 2nd ed. (Prentice Hall, 2009), Ch. 1. Jelinek himself softened the wording in later interviews.
+
+[^6]: Sepp Hochreiter and Jürgen Schmidhuber, "Long Short-Term Memory," *Neural Computation* 9, no. 8 (1997): 1735–1780.
+
+[^7]: Tomas Mikolov et al., "Efficient Estimation of Word Representations in Vector Space," arXiv:1301.3781 (2013).
+
+[^8]: Ashish Vaswani et al., "Attention Is All You Need," *Advances in Neural Information Processing Systems* 30 (NeurIPS 2017), arXiv:1706.03762.
+
+[^9]: Alec Radford et al., "Improving Language Understanding by Generative Pre-Training," OpenAI Technical Report (2018), https://openai.com/research/language-unsupervised.
+
+[^10]: Alec Radford et al., "Language Models Are Unsupervised Multitask Learners," OpenAI Technical Report (2019); see also OpenAI, "Better Language Models and Their Implications," blog post, February 14, 2019.
+
+[^11]: Jason Wei et al., "Emergent Abilities of Large Language Models," *Transactions on Machine Learning Research* (2022), arXiv:2206.07682. The claim of "emergence" has since been contested; see Rylan Schaeffer et al., "Are Emergent Abilities of Large Language Models a Mirage?" *NeurIPS* 2023, arXiv:2304.15004, which argues that many apparent jumps are artifacts of nonlinear metrics. The narrative here follows the original emergence framing while noting the open debate.
+
+[^12]: Long Ouyang et al., "Training Language Models to Follow Instructions with Human Feedback," *NeurIPS* 2022, arXiv:2203.02155 (the InstructGPT paper).
+
+[^13]: Shakked Noy and Whitney Zhang, "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence," *Science* 381, no. 6654 (2023): 187–192.
+
+[^14]: Sida Peng et al., "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot," arXiv:2302.06590 (2023).
+
+[^15]: Fabrizio Dell'Acqua et al., "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality," Harvard Business School Working Paper 24-013 (2023).
 
 ---
 
