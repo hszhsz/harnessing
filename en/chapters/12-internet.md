@@ -1,5 +1,7 @@
 # Chapter 12: The Internet — Connectivity as Productivity
 
+![Figure 12-1. Global internet adoption (ITU data)](../../assets/charts/ch12-internet-users.png)
+
 ## Part IV: The Information Age
 
 On October 29, 1969, a graduate student named Charley Kline sat at a computer terminal at UCLA and attempted to send a message to a machine at the Stanford Research Institute, 350 miles away. He was trying to type the word "LOGIN." He got as far as "LO" before the system crashed. It was an inauspicious beginning for what would become the most transformative communication infrastructure in human history. Within three decades, that two-letter fragment would evolve into a global network connecting billions of people, carrying the equivalent of every book ever written every few seconds, and fundamentally rewriting the economics of information itself.

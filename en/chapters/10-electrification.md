@@ -1,5 +1,7 @@
 # Chapter 10: Electrification — Transmitting and Precisely Controlling Energy
 
+![Figure 10-1. The cost of light, 1800–2020 (Nordhaus 1996, extended)](../../assets/charts/ch10-light-cost.png)
+
 ## The Night a City Glowed
 
 On the evening of September 4, 1882, Thomas Edison stood in the offices of J.P. Morgan at 23 Wall Street, New York, and threw a switch.[^1] Six blocks away, at the Pearl Street Station, dynamos spun to life. Current flowed through copper wires buried beneath the streets. And in Morgan's office — along with eighty-four other buildings connected to the system — incandescent bulbs blazed into steady, warm light.

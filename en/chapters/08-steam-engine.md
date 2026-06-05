@@ -1,5 +1,7 @@
 # Chapter 8: The Steam Engine — Turning Heat into Work
 
+![Figure 8-1. Steam engine thermal efficiency, 0.5% → 35%](../../assets/charts/ch08-steam-efficiency.png)
+
 ## A Flood in a Tin Mine
 
 In 1712, in the coalfields near Dudley Castle in Staffordshire, England, a blacksmith named Thomas Newcomen watched his contraption shudder to life. A giant beam rocked up and down, driven by nothing more than boiling water and cold condensation. With each stroke, it dragged a bucket of floodwater from the depths of a tin mine and dumped it at the surface. The machine was loud, inefficient, and hungry for coal. But it did something no machine had ever done before in any practical, continuous sense: it turned heat into mechanical work.

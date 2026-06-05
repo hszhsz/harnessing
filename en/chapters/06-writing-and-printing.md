@@ -1,5 +1,7 @@
 # Chapter 6: Writing and Printing — The First Information Explosion
 
+![Figure 6-1. The cost of copying a book, 1300–2024](../../assets/charts/ch06-book-copy-cost.png)
+
 ## The Accountant's Dilemma
 
 Around 3200 BCE, in the Sumerian city of Uruk — one of the world's first true cities, home to perhaps 40,000 people — a temple administrator faced a problem that no human being had ever solved. The temple collected grain taxes from hundreds of farmers, stored them in dozens of granaries, and redistributed them to workers, priests, and traders throughout the year. The quantities were too large, the transactions too numerous, and the time spans too long for any single mind to track reliably.

@@ -1,6 +1,7 @@
 # Chapter 1: The Hand — The First Tool
 
 ![Productivity Evolution Timeline](../../assets/01-productivity-timeline.jpg)
+![Figure 1-1. The 75-watt baseline vs. later power outputs (log scale)](../../assets/charts/ch01-power-baseline.png)
 
 ## Part I: The Age of Muscle
 

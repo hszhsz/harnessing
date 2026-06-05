@@ -1,6 +1,7 @@
 # Chapter 15: AI Agents — The Tool That Wields Tools
 
 ![AI Agent Core Loop](../../assets/04-agent-loop.jpg)
+![Figure 15-1. The copilot–autopilot spectrum (L0–L5)](../../assets/charts/ch15-agent-spectrum.png)
 
 ---
 

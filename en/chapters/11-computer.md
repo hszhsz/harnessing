@@ -1,5 +1,7 @@
 # Chapter 11: The Computer — Automating Logic
 
+![Figure 11-1. The exponential decline in computing cost (USD per MIPS)](../../assets/charts/ch11-computer-cost.png)
+
 ## Part IV: The Information Age
 
 On the evening of February 14, 1946, the University of Pennsylvania held a press conference unlike any other. Journalists were ushered into a large room where thirty tons of electronic equipment hummed and flickered behind panels of blinking lights. The machine before them, ENIAC — the Electronic Numerical Integrator and Computer — had just completed a calculation in thirty seconds that would have taken a skilled human mathematician twenty hours. The reporters struggled for analogies. One called it a "giant brain." Another described it as "an awesome mathematical Frankenstein." What none of them could have predicted was that this room-sized apparatus, consuming enough electricity to power a small neighborhood, represented the embryonic form of a technology that would eventually fit in a shirt pocket and reshape every dimension of human productivity.

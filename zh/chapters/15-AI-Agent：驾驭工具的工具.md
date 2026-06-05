@@ -1,6 +1,7 @@
 # 第 15 章　AI Agent：驾驭工具的工具
 
 ![AI Agent 核心循环](../../assets/04-agent-loop.jpg)
+![图15-1 副驾—自动驾驶光谱（L0–L5）](../../assets/charts/ch15-agent-spectrum.png)
 
 ## 一个人的软件公司
 

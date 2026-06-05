@@ -1,5 +1,7 @@
 # Chapter 16: Agent Economics — Rewriting the Production Function
 
+![Figure 16-1. Marginal cost of knowledge tasks: human vs. LLM agent (log scale)](../../assets/charts/ch16-marginal-cost.png)
+
 ---
 
 ## The Thousand-Dollar Employee

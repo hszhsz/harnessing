@@ -1,5 +1,7 @@
 # Chapter 13: Mobile and Cloud — Computing Anytime, Anywhere
 
+![Figure 13-1. Smartphone unlocks per day and the teen-mental-health inflection](../../assets/charts/ch13-attention-economy.png)
+
 ## Part IV: The Information Age
 
 On January 9, 2007, Steve Jobs walked onto a stage in San Francisco and held up a small rectangle of glass and aluminum. "Every once in a while," he told the audience, "a revolutionary product comes along that changes everything." The hyperbole was, for once, justified. The device he held — the first iPhone — was not merely a better phone. It was a general-purpose computer more powerful than the machines that had guided Apollo astronauts to the Moon, wrapped in a package that slipped into a jeans pocket and connected wirelessly to the sum of human knowledge. Within a decade, devices like it would be carried by more than three billion people. Within fifteen years, they would become the primary computing platform for most of humanity, fundamentally reorganizing how, when, and where productive work could happen.

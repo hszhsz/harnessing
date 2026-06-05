@@ -1,5 +1,7 @@
 # Chapter 14: Large Language Models — Language as Interface
 
+![Figure 14-1. LLM scale has grown ~10,000× in seven years](../../assets/charts/ch14-llm-scale.png)
+
 ## Part V: The Age of Agents
 
 ---

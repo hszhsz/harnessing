@@ -1,5 +1,7 @@
 # Chapter 9: Internal Combustion and Oil — Portable Explosive Power
 
+![Figure 9-1. People fed per US farmer, 1900–2020 (USDA data)](../../assets/charts/ch09-farmer-fed.png)
+
 ## A Farmer's Morning in 1900
 
 In 1900, a wheat farmer in Kansas named William Saunders rose before dawn, as his father and grandfather had before him. He hitched a team of four horses to his harvester and spent the day cutting twenty acres — a good day's work. His horses consumed feed grown on a third of his land. He employed two hired hands during harvest season. At year's end, the food William grew fed his family and roughly four others. This ratio — one farmer feeding four to five people — had barely changed since the Middle Ages.

@@ -1,6 +1,7 @@
 # Chapter 17: The Metaphor of the Reins (Finale)
 
 ![Energy Density Across Ages](../../assets/03-energy-density.jpg)
+![Figure 17-1. Seven (now eight) leaps: per-capita usable power across history](../../assets/charts/ch17-seven-leaps.png)
 
 ---
 

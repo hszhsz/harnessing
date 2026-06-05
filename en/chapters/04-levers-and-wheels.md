@@ -1,5 +1,7 @@
 # Chapter 4: Levers and Wheels — Force Multipliers
 
+![Figure 4-1. Mechanical advantage of simple machines](../../assets/charts/ch04-simple-machines.png)
+
 ## Part I: The Age of Muscle
 
 ---

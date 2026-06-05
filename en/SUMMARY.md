@@ -50,5 +50,6 @@
 
 - [Appendix A: Quantified Timeline of Human Energy Utilization](chapters/appendix-a.md)
 - [Appendix B: Key Inventions and Their Productivity Multipliers](chapters/appendix-b.md)
-- [Appendix C: Recommended Reading](chapters/appendix-c.md)
+- [Appendix C: Notes & Sources](chapters/appendix-c.md)
+- [Appendix C-2: Further Reading](chapters/appendix-c2-further-reading.md)
 - [Appendix D: Contribution Guide](chapters/appendix-d.md)

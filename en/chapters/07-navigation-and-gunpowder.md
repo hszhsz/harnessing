@@ -1,5 +1,7 @@
 # Chapter 7: Navigation and Gunpowder — Globalizing Energy Projection
 
+![Figure 7-1. Share of world GDP, 1500 vs. 1900 (Maddison data)](../../assets/charts/ch07-world-gdp-share.png)
+
 ## The Ship That Changed the World
 
 On July 8, 1497, Vasco da Gama sailed from Lisbon with four small ships and 170 men. Ten months and 24,000 miles later, he anchored off the coast of Calicut on India's Malabar Coast — the first European to reach Asia by sea. The journey itself was a triumph of endurance and navigation, but its significance was not merely geographic. Da Gama's arrival at Calicut represented the moment when two of humanity's most powerful productivity technologies — ocean navigation and gunpowder weapons — combined to create a system capable of projecting economic and military power across the entire globe.

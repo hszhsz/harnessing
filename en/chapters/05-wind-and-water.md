@@ -1,5 +1,7 @@
 # Chapter 5: Wind and Water — Borrowing Earth's Engines
 
+![Figure 5-1. Prime movers of the natural-forces age (log scale)](../../assets/charts/ch05-prime-movers.png)
+
 ## A Mill on the River Stour
 
 In 1086, when William the Conqueror's surveyors fanned out across England to compile the Domesday Book — that extraordinary census of a conquered land — they counted everything: plows, livestock, acres of woodland, fishponds, and mills. They recorded 6,082 watermills serving roughly 1.4 million people. That is one mill for every 230 inhabitants, a density of mechanical power that no civilization on Earth had previously achieved.

@@ -1,5 +1,7 @@
 # Chapter 2: Fire — The First Energy Revolution
 
+![Figure 2-1. Brain-size growth and caloric yield of cooked vs. raw food](../../assets/charts/ch02-fire-brain.png)
+
 ## Part I: The Age of Muscle
 
 ---

@@ -1,5 +1,7 @@
 # Chapter 3: The Reins — Harnessing Another Species
 
+![Figure 3-1. Per-worker cultivated area before and after draft animals](../../assets/charts/ch03-draft-animals.png)
+
 ## Part I: The Age of Muscle
 
 ---
