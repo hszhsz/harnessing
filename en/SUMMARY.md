@@ -19,12 +19,20 @@
 - [Chapter 6: Writing and Printing — The First Information Explosion](chapters/06-writing-and-printing.md)
 - [Chapter 7: Navigation and Gunpowder — Globalizing Energy Projection](chapters/07-navigation-and-gunpowder.md)
 
+### Interlude I
+
+- [From Clan to Empire — The Organizational Code of the Pre-Industrial Era](chapters/interlude-1-from-clan-to-empire.md)
+
 ## Part III: The Age of Heat (1760s – 1940s)
 
 - [Part Intro](chapters/00-part3-intro.md)
 - [Chapter 8: The Steam Engine — Turning Heat into Work](chapters/08-steam-engine.md)
 - [Chapter 9: Internal Combustion and Oil — Portable Explosive Power](chapters/09-internal-combustion.md)
 - [Chapter 10: Electrification — Transmitting and Precisely Controlling Energy](chapters/10-electrification.md)
+
+### Interlude II
+
+- [The Birth of the Factory — How the Industrial Revolution Reorganized Humanity](chapters/interlude-2-birth-of-the-factory.md)
 
 ## Part IV: The Information Age (1940s – 2020s)
 
@@ -33,12 +41,16 @@
 - [Chapter 12: The Internet — Connectivity as Productivity](chapters/12-internet.md)
 - [Chapter 13: Mobile and Cloud — Computing Anytime, Anywhere](chapters/13-mobile-and-cloud.md)
 
+### Interlude III
+
+- [Networks and Platforms — Organizational Experiments of the Information Age](chapters/interlude-3-networks-and-platforms.md)
+
 ## Part V: The Age of Agents (2020s –)
 
 - [Part Intro](chapters/00-part5-intro.md)
 - [Chapter 14: Large Language Models — Language as Interface](chapters/14-llm.md)
 - [Chapter 15: AI Agents — The Tool That Wields Tools](chapters/15-ai-agent.md)
-- [Chapter 16: Agent Economics — Rewriting the Production Function](chapters/16-agent-economics.md)
+- [Chapter 16: Production Relations and New Organizational Forms in the Age of Agents](chapters/16-production-relations-in-the-age-of-agents.md)
 
 ---
 
